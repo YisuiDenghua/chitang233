@@ -329,7 +329,7 @@ github_issues:
 
 utterances:
   enable: true
-  repo: chitang233/chitang233.github.io
+  repo: chitang233/chitang233
   issue-term: pathname
   label: comment
   theme: github-light
