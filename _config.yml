@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://chitang.tech
+url: https://www.chitang.tech
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
@@ -99,9 +99,9 @@ theme: yun
 deploy:
   type: git
   repo: 
-    github: git@github.com:chitang233/chitang233.github.io
+    github: git@github.com:chitang233/chitang233
     #gitee: https://gitee.com/chitang233/chitang233.git
-  branch: master
+  branch: pages
 
 # Live2D
 live2d:
