@@ -46,7 +46,7 @@ links:
     email: ssmzhn-bilibili@outlook.com
 
   - url: https://blog.233.pink
-    avatar: https://cdn.jsdelivr.net/gh/ilyfairy/cdn@1.1.1/img/custom/avatar.png
+    avatar: https://fastly.jsdelivr.net/gh/ilyfairy/cdn@1.1.1/img/custom/avatar.png
     name: ilyfairy
     blog: ilyfairy's Blog
     desc: 一只可爱的小仙女
@@ -72,6 +72,12 @@ links:
     avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
     name: 一刀斩の小窝
     blog: 一刀斩の小窝
+
+	- url: https://sugarmgp.github.io/
+		avatar: https://sugarmgp.github.io/images/avatar.png
+		name: 白糖洒一地
+		blog: SugerMGP's Blog
+		color: "#66ccff"
 
 placeholder: 没有说明 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
