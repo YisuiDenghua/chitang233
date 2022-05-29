@@ -39,7 +39,7 @@ dns_prefetch:
 
 # do more(TCP handshake...) than dns-fetch
 preconnect:
-  - https://cdn.jsdelivr.net
+  - https://fastly.jsdelivr.net
 
 social:
   - name: RSS
@@ -103,7 +103,6 @@ banner:
 
 notice:
   enable: false
-  content: Thanks for playing my game.
 
 mode: auto
 
@@ -123,7 +122,7 @@ engine_search:
 
 search:
   modal: true
-  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+  bg_image: https://fastly.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
   # dark_bg_image: xxx
   # placeholder:
 
@@ -150,12 +149,12 @@ scrollreveal:
 
 cursor:
   enable: false
-  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
-  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
-  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+  default: https://fastly.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://fastly.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://fastly.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
 
 sidebar:
-  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_image: https://fastly.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
   bg_position: bottom 3rem center
   tagcloud:
     enable: false
@@ -163,7 +162,7 @@ sidebar:
 
 avatar:
   enable: true
-  url: https://github.com/chitang233.png
+  url: images/avatar.webp
   rounded: true
   opacity: 1
   mickey_mouse: false
@@ -302,7 +301,7 @@ footer:
 
 say:
   enable: true
-  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  api: https://fastly.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
   src: /js/say.js
   # https://developer.hitokoto.cn/sentence/
   hitokoto:
