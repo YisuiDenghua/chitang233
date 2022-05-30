@@ -14,8 +14,6 @@
 
 ![Genshin Impact information](https://genshin-card.getloli.com/rand/83264638.png)
 
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue)
-
 ---
 
 #### 💻 Workspaces 
