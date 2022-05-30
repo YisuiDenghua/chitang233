@@ -10,6 +10,16 @@
 | ------------- | ------------- |
 
 <!--START_SECTION:waka-->
+
+```text
+Markdown         59 mins         ███████░░░░░░░░░░░░░░░░░░   28.22 %
+Python           55 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.98 %
+Bash             29 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.67 %
+Kotlin           25 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.12 %
+HTML             18 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.86 %
+JavaScript       10 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.73 %
+```
+
 <!--END_SECTION:waka-->
 
 ![Genshin Impact information](https://genshin-card.getloli.com/rand/83264638.png)
