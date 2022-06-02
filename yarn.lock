@@ -237,6 +237,11 @@
   dependencies:
     "sprintf-js" "~1.0.2"
 
+"argparse@^2.0.1":
+  "integrity" "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="
+  "resolved" "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz"
+  "version" "2.0.1"
+
 "arr-diff@^2.0.0":
   "integrity" "sha512-dtXTVMkh6VkEEA7OhXnN1Ecb8aAGFdZ1LFxtOCoqj4qkyOJMt7+qs6Ahdy6p/NQCPYsRSXXivhSB/J5E9jmYKA=="
   "resolved" "https://registry.npmjs.org/arr-diff/-/arr-diff-2.0.0.tgz"
@@ -1379,6 +1384,11 @@
   "resolved" "https://registry.npmjs.org/fast-diff/-/fast-diff-1.2.0.tgz"
   "version" "1.2.0"
 
+"fast-equals@^3.0.1":
+  "integrity" "sha512-NCe8qxnZFARSHGztGMZOO/PC1qa5MIFB5Hp66WdzbCRAz8U8US3bx1UTgLS49efBQPcUtO9gf5oVEY8o7y/7Kg=="
+  "resolved" "https://registry.npmjs.org/fast-equals/-/fast-equals-3.0.3.tgz"
+  "version" "3.0.3"
+
 "fast-levenshtein@~2.0.6":
   "integrity" "sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc="
   "resolved" "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
@@ -1885,7 +1895,7 @@
   dependencies:
     "hexo-pagination" "1.0.0"
 
-"hexo-helper-live2d@^3.1.0":
+"hexo-helper-live2d@^3.1.1":
   "integrity" "sha512-YqWAyCjB91kLBYJnmYJZtecKvfw+ph0cIZfycjZeJ4rYvF4d4Z+C5TVVW2SPstOEbNvwK0PpimUhi6r3hT5z7g=="
   "resolved" "https://registry.npmjs.org/hexo-helper-live2d/-/hexo-helper-live2d-3.1.1.tgz"
   "version" "3.1.1"
@@ -1958,7 +1968,7 @@
     "jsdom" "^19.0.0"
     "marked" "^4.0.1"
 
-"hexo-renderer-stylus@^2.0.1":
+"hexo-renderer-stylus@^2.1.0":
   "integrity" "sha512-Nef4YCr7JX8jaRaByhzXMSsWnDed+RgJj6aU/ARnYu3Bn5xz/qRz52VJG7KqD0Xuysxa9TIBdVUgNzBrSFn3DQ=="
   "resolved" "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-2.1.0.tgz"
   "version" "2.1.0"
@@ -1997,10 +2007,10 @@
   "resolved" "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
   "version" "0.0.3"
 
-"hexo-theme-yun@^1.9.0":
-  "integrity" "sha512-wY99mxDH7i0wm5WvcnqehGcNZmyufkuHlC8YcW/oAaEYAGottG4aSs8ztp0RwND2yKLYbXAJ6EkW9XTEcTkaTw=="
-  "resolved" "https://registry.npmjs.org/hexo-theme-yun/-/hexo-theme-yun-1.10.2.tgz"
-  "version" "1.10.2"
+"hexo-theme-yun@^1.10.3":
+  "integrity" "sha512-p+ft8yyEVE11YnYCveInbCdt66kB6S9107/oexPCEkHtJxHx2vin4aCQf29Xe3y1XWdkJOn6n1AXo5hYLzNVhw=="
+  "resolved" "https://registry.npmjs.org/hexo-theme-yun/-/hexo-theme-yun-1.10.3.tgz"
+  "version" "1.10.3"
 
 "hexo-util@^0.1.7":
   "integrity" "sha1-/chOG/IbGcTIaVQkWFqp8T7NY1M="
@@ -2030,26 +2040,27 @@
   "resolved" "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
   "version" "6.0.1"
 
-"hexo@^5.4.2":
-  "integrity" "sha512-Af6mxKwx9byalaffKgiQ8/bZfbXPo2SGEn2Q9hFh++15g15/IulvOhu8lQkJdyZNzmj3hOuSrJdqoUvIr3K/qw=="
-  "resolved" "https://registry.npmjs.org/hexo/-/hexo-5.4.2.tgz"
-  "version" "5.4.2"
+"hexo@6.0.0":
+  "integrity" "sha512-ffSOhOEwPCJt2Ch4DdCdX39WBv8IX8I8I7md08RMDYc6jqxmE2mpuU8wzFYEJ/FQVjrt/EsQ/qfKAz3zAW/hvw=="
+  "resolved" "https://registry.npmjs.org/hexo/-/hexo-6.0.0.tgz"
+  "version" "6.0.0"
   dependencies:
     "abbrev" "^1.1.1"
     "archy" "^1.0.0"
     "bluebird" "^3.5.2"
-    "chalk" "^4.0.0"
     "hexo-cli" "^4.0.0"
     "hexo-front-matter" "^2.0.0"
     "hexo-fs" "^3.1.0"
     "hexo-i18n" "^1.0.0"
-    "hexo-log" "^2.0.0"
+    "hexo-log" "^3.0.0"
     "hexo-util" "^2.4.0"
-    "js-yaml" "^3.14.1"
+    "js-yaml" "^4.0.0"
     "micromatch" "^4.0.2"
+    "moize" "^6.1.0"
     "moment" "^2.22.2"
     "moment-timezone" "^0.5.21"
     "nunjucks" "^3.2.1"
+    "picocolors" "^1.0.0"
     "pretty-hrtime" "^1.0.3"
     "resolve" "^1.8.1"
     "strip-ansi" "^6.0.0"
@@ -2563,13 +2574,20 @@
   "resolved" "https://registry.npmjs.org/js-stringify/-/js-stringify-1.0.2.tgz"
   "version" "1.0.2"
 
-"js-yaml@^3.12.0", "js-yaml@^3.13.1", "js-yaml@^3.14.1":
+"js-yaml@^3.12.0", "js-yaml@^3.13.1":
   "integrity" "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g=="
   "resolved" "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz"
   "version" "3.14.1"
   dependencies:
     "argparse" "^1.0.7"
     "esprima" "^4.0.0"
+
+"js-yaml@^4.0.0":
+  "integrity" "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA=="
+  "resolved" "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "argparse" "^2.0.1"
 
 "jsdom@^19.0.0":
   "integrity" "sha512-RYAyjCbxy/vri/CfnjUWJQQtZ3LKlLnDqj+9XLNnJPgEGeirZs3hllKR20re8LUZ6o1b1X4Jat+Qd26zmP41+A=="
@@ -2833,6 +2851,11 @@
   "resolved" "https://registry.npmjs.org/meting/-/meting-1.2.0.tgz"
   "version" "1.2.0"
 
+"micro-memoize@^4.0.9":
+  "integrity" "sha512-rk0OlvEQkShjbr2EvGn1+GdCsgLDgABQyM9ZV6VoHNU7hiNM+eSOkjGWhiNabU/XWiEalWbjNQrNO+zcqd+pEA=="
+  "resolved" "https://registry.npmjs.org/micro-memoize/-/micro-memoize-4.0.10.tgz"
+  "version" "4.0.10"
+
 "micromatch@^2.1.5":
   "integrity" "sha1-hmd8l9FyCzY0MdBNDRUpO9OMFWU="
   "resolved" "https://registry.npmjs.org/micromatch/-/micromatch-2.3.11.tgz"
@@ -2985,6 +3008,14 @@
   "version" "0.5.6"
   dependencies:
     "minimist" "^1.2.6"
+
+"moize@^6.1.0":
+  "integrity" "sha512-6bryLehIBVByDdAkXhoaPP1fknkoq1hNPmVCDYIb/w5zwfidT02zLSto1uGbmnv1GKu02ysgAEaJ5Ic7QQaGQA=="
+  "resolved" "https://registry.npmjs.org/moize/-/moize-6.1.1.tgz"
+  "version" "6.1.1"
+  dependencies:
+    "fast-equals" "^3.0.1"
+    "micro-memoize" "^4.0.9"
 
 "moment-timezone@^0.5.21":
   "integrity" "sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg=="
