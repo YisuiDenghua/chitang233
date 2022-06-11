@@ -72,7 +72,7 @@ JavaScript       1 min           ▒░░░░░░░░░░░░░░�
 #### 🕹 Games
 
 [![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/chitang233)
-[![Minecraft](https://img.shields.io/badge/chitang-green?style=for-the-badge&logo=Minecraft&logoColor=white)]
+![Minecraft](https://img.shields.io/badge/chitang-green?style=for-the-badge&logo=Minecraft&logoColor=white)
 
 ---
 
