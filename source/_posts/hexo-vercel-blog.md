@@ -8,6 +8,8 @@ tags: [Hexo, Vercel, Blog, Guide]
 
 本文简述了使用 Hexo 搭建个人博客的过程
 
+但手上没有机器，电脑又不支持 Hackintosh，故该教程的内容对于 macOS 不一定使用
+
 文章包括不限于:
 
 - 域名的购买与解析
@@ -76,5 +78,61 @@ tags: [Hexo, Vercel, Blog, Guide]
 ## Node.js & npm
 
 对于 Windows，前往 https://nodejs.org/zh-cn/download/ 下载 64-bit 的 msi 安装包
+
+对于 Ubuntu，执行以下指令
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs npm
+```
+
+对于 Debian，使用 root 用户执行以下指令
+
+```
+curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+apt-get install -y nodejs npm
+```
+
+对于 Arch Linux，可以直接使用 pacman 安装 `community/nodejs-lts-gallium` 和 `community/npm`
+
+其他发行版请自行前往 https://nodejs.org/zh-cn/download/package-manager/ 查看
+
+在安装后，打开终端执行 `node -v` 与 `npm -v`，没有报错即为安装成功
+
+## Hexo
+
+### 安装
+
+首先，执行以下命令来安装 Hexo 本体
+
+```bash
+npm install hexo-cli -g
+```
+
+在你的硬盘中建立一个文件夹，这个文件夹在下面的部分会被叫做**工作目录**
+
+使用这条命令初始化 Hexo
+
+```bash
+hexo init
+```
+
+之后，使用这几条命令运行一个本地服务器
+
+```bash
+hexo clean
+hexo g
+hexo s
+```
+
+没有意外的话，使用浏览器打开 http://localhost:4000 就能够看到 Hexo 的初始画面了
+
+### 配置
+
+鸽了。
+
+## 部署至 Vercel
+
+还是鸽了。
 
 ## Working in Progress...
