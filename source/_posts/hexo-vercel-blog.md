@@ -8,7 +8,7 @@ tags: [Hexo, Vercel, Blog, Guide]
 
 本文简述了使用 Hexo 搭建个人博客的过程
 
-但手上没有机器，电脑又不支持 Hackintosh，故该教程的内容对于 macOS 不一定使用
+但手上没有机器，电脑又不支持 Hackintosh，故该教程的内容对于 macOS 不一定适用
 
 文章包括不限于:
 
