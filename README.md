@@ -12,9 +12,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-Markdown         39 mins         ████████████████████████▓   98.48 %
-JSON             0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.45 %
-GitIgnore file   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
