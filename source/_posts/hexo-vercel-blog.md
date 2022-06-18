@@ -9,10 +9,6 @@ abbrlink: 58336
 date: 2022-06-12 17:42:09
 ---
 
-![Hexo](/images/icon/hexo.svg)
-![Vercel](/images/icon/vercel.svg)
-![GitHub](/images/icon/github.png)
-
 ## 在开始前，你需要知道的
 
 本文简述了使用 Hexo 搭建个人博客的过程
@@ -27,7 +23,7 @@ date: 2022-06-12 17:42:09
 - 一个 GitHub 帐号
 - 一段时间
 - 一双灵活的手
-- 初中的英语水平
+- 初中的英语水平或熟练使用翻译工具
 
 文章包括且不限于:
 
