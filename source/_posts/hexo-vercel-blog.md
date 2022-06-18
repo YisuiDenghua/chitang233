@@ -76,12 +76,18 @@ npm install hexo-cli -g
 <div class="info">
 
 > 如果使用 Linux，可能会有权限不足的报错，在命令前方加入 `sudo` 使用 root 权限执行即可
-> 
+
+</div>
+
+<div class="yellow">
+
 > 如果使用 NixOS，由于 Nix Store 是只读的，你还需要在安装之前执行 `npm set prefix ~/.npm-global`，然后在 ~/.bashrc 或 ~/.zshrc 中添加
->  ```
+>  
+>  ```shell
 >  export PATH=~/.npm-packages/bin:$PATH
 >  export NODE_PATH=~/.npm-packages/lib/node_modules
 >  ```
+>  
 >  这会将 npm 的 PATH 变更到你的家目录。
 
 </div>
