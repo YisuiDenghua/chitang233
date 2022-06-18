@@ -1,5 +1,5 @@
 ---
-title: 使用 Hexo 与 Vercel 零成本打造你的个人博客(上)
+title: 使用 Hexo 与 Vercel 零成本打造你的个人博客
 tags:
   - Hexo
   - Vercel
