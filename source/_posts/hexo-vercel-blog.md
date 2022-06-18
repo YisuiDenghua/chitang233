@@ -54,6 +54,11 @@ apt-get install -y nodejs npm
 
 对于 Arch Linux，可以直接使用 pacman 安装 `community/nodejs-lts-gallium` 和 `community/npm`
 
+对于 NixOS，你需要安装软件包 `nodejs`
+```
+  environment.systemPackages = with pkgs; [ nodejs ];
+```
+
 其他发行版请自行前往 https://nodejs.org/zh-cn/download/package-manager/ 查看
 
 在安装后，打开终端执行 `node -v` 与 `npm -v`，没有报错即为安装成功
@@ -71,7 +76,7 @@ npm install hexo-cli -g
 <div class="info">
 
 > 如果使用 Linux，可能会有权限不足的报错，在命令前方加入 `sudo` 使用 root 权限执行即可
-
+> 如果使用 NixOS，由于 Nix Store 是只读的，你还需要在安装之前执行 `npm set prefix ~/.npm-global`，这会将 npm 的 PATH 变更到你的家目录
 </div>
 
 在你的硬盘中建立一个文件夹，这个文件夹在下面的部分会被叫做**工作目录**
