@@ -9,6 +9,12 @@ abbrlink: 58336
 date: 2022-06-12 17:42:09
 ---
 
+<center>
+![Hexo](/images/icon/hexo.svg)
+![Vercel](/images/icon/vercel.svg)
+![GitHub](/images/icon/github.png)
+</center>
+
 ## 在开始前，你需要知道的
 
 本文简述了使用 Hexo 搭建个人博客的过程
