@@ -17,12 +17,6 @@ google_analytics:
   enable: false
   id: G-1M27JF37R1
 
-head:
-  js:
-    async:
-      data-website-id="db1b587e-7774-4012-842d-5d01553dc40b" https://umami.chitang.tech/umami.js
-
-
 preload:
   style:
     - /css/hexo-theme-yun.css
