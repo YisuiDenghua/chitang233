@@ -76,7 +76,9 @@ npm install hexo-cli -g
 <div class="info">
 
 > 如果使用 Linux，可能会有权限不足的报错，在命令前方加入 `sudo` 使用 root 权限执行即可
+> 
 > 如果使用 NixOS，由于 Nix Store 是只读的，你还需要在安装之前执行 `npm set prefix ~/.npm-global`，这会将 npm 的 PATH 变更到你的家目录
+
 </div>
 
 在你的硬盘中建立一个文件夹，这个文件夹在下面的部分会被叫做**工作目录**
